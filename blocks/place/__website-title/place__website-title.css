@@ -1,0 +1,14 @@
+.place__website-title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    margin: 0 0 12px;
+    color: #AAAAAA;
+  }
+
+  @media screen and (max-width: 768px) {
+    .place__website-title{
+      line-height: 12px;
+    }
+  }

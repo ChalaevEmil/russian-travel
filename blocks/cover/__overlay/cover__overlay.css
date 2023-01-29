@@ -1,0 +1,70 @@
+.cover__overlay{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    max-width: 100%;
+    min-height: 740px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-image: url(../../../images/background-image-cover.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+  .cover__overlay::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+  }
+
+  .cover__overlay:hover::before{
+    opacity: 0.8;
+    transition: ease-in-out 0.5s;
+  }
+
+  @media screen and (max-width:1024px) {
+    .cover__overlay{
+      min-height: 640px;
+    }
+  }
+
+  @media screen and (max-width:900px) {
+    .cover__overlay{
+      min-height: 570px;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .cover__overlay{
+      min-height: 500px;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .cover__overlay{
+      min-height: 480px;
+    }
+  }
+
+  @media screen and (max-width:650px) {
+    .cover__overlay{
+      min-height: 350px;
+      gap: 16px;
+    }
+  }
+
+  @media screen and (max-width:320px) {
+    .cover__overlay{
+      min-height: 200px;
+    }
+  }
