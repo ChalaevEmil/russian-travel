@@ -30,16 +30,15 @@
     }
   }
 
-  @media (min-width: 651px) and (max-width:767px){
+  @media (min-width: 671px) and (max-width:767px){
     .place{
       grid-template-columns: 1fr 1fr;
     }
   }
   
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 670px) {
     .place {
       grid-template-columns: 100%;
-      grid-template-rows: fit-content;
       grid-template-areas:
       "title"
       "url"

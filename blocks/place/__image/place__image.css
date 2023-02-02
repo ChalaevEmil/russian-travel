@@ -2,3 +2,9 @@
     max-width: 100%;
     grid-area: image;
   }
+
+  @media screen and (max-width:670px) {
+    .place__image{
+      margin: 0 auto;
+    }
+  }
